@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CServer.cpp" />
+    <ClCompile Include="CThttpParser.cpp" />
+    <ClCompile Include="Epoll.cpp" />
+    <ClCompile Include="http_parser.c" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="ThttpParser.cpp" />
+    <ClCompile Include="sqlite3\sqlite3.c">
+      <Filter>sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseHelper.cpp" />
+    <ClCompile Include="Sqlite3Client.cpp" />
+    <ClCompile Include="MysqlClient.cpp" />
+    <ClCompile Include="Crypto.cpp" />
+    <ClCompile Include="Jsoncpp\jsoncpp.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CServer.h" />
+    <ClInclude Include="CThttpParser.h" />
+    <ClInclude Include="Epoll.h" />
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="http_parser.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="PlayerServer.h" />
+    <ClInclude Include="Procass.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="sqlite3\sqlite3.h">
+      <Filter>sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3\sqlite3ext.h">
+      <Filter>sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseHelper.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Sqlite3Client.h" />
+    <ClInclude Include="MysqlClient.h" />
+    <ClInclude Include="Crypto.h" />
+    <ClInclude Include="Jsoncpp\json.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Jsoncpp\json-forwards.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sqlite3">
+      <UniqueIdentifier>{df5a8e44-1044-4c60-bad5-a1a0230f573c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{ae2d3a4d-a473-4cb5-b312-9b7cece55943}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
